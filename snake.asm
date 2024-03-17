@@ -51,10 +51,6 @@ call handle_food
 
 
 regular_flow:
-
-
-
-
 ; this part of the code is for VK_KEY
 cmp byte [scan_code], left_arrow
 jne check_right_arrow
